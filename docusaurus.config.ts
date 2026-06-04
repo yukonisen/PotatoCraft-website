@@ -54,8 +54,8 @@ const config: Config = {
     },
     announcementBar: {
       id: 'migration_nariko',
-      content: `运营主体变更公告：土豆网络今后将由 Nariko 运营。<a href="/blog/migration-to-nariko">点击此处 </a> 了解详情。`,
-      backgroundColor: '#4ec1dd',
+      content: `土豆网络今后将由 Nariko 运营。<a href="/blog/migration-to-nariko">阅读此公告</a> 以了解详情。`,
+      backgroundColor: '#9ecdff',
       textColor: '#222222',
       isCloseable: true,
     },
@@ -140,12 +140,10 @@ const config: Config = {
         },
       ],
       
-      copyright: `Copyright © 2019-${new Date().getFullYear()} <a href="https://github.com/DedCRS" target="_blank">DedCRS</a> and their <a href="https://github.com/DedCRS/PotatoCraft-website/graphs/contributors" target="_blank">contributors</a>.
+      copyright: `Copyright © 2019-2025 PotatoCraft, <a href="https://curiousers.org" target="_blank">Curiousers!</a> and its contributors.
       <br />
-      <a>
-        <img src="https://vercelbadge.vercel.app/api/yukonisen/potatonetwork?style=flat-square" />
-        <img src="https://img.shields.io/github/languages/top/DedCRS/potatocraft-website?style=flat-square" />
-        <img src="https://img.shields.io/github/last-commit/DedCRS/potatocraft-website?style=flat-square" />
+      © 2025-${new Date().getFullYear()} Nariko. All rights reserved.
+      <br />
       `,
     },
     prism: {

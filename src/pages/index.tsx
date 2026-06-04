@@ -3,7 +3,6 @@ import clsx from 'clsx';
 import Link from '@docusaurus/Link';
 import useDocusaurusContext from '@docusaurus/useDocusaurusContext';
 import Layout from '@theme/Layout';
-import HomepageFeatures from '@site/src/components/HomepageFeatures';
 import Heading from '@theme/Heading';
 import styles from './index.module.css';
 
@@ -16,7 +15,7 @@ function HeroBanner() {
           className={styles.heroTitleTextHtml}
           // eslint-disable-next-line react/no-danger
           dangerouslySetInnerHTML={{
-          __html: '由<b>社区驱动</b>的</br>Minecraft </br><b>服务器</b>。&nbsp'
+          __html: '由<b>社区驱动</b>的</br>Minecraft </br>服务器。&nbsp'
           }}
           />
         </Heading>
@@ -25,7 +24,7 @@ function HeroBanner() {
           模组包下载
           </Link>
         </div>
-        <p style={{color: 'white'}}>[*]截图来自: 2025-02-08 S22</p>
+        <p style={{color: 'white'}}>*截图来自: 2025-02-08 S22</p>
     </div>
     </div>
   );
@@ -35,19 +34,17 @@ function SeasonBanner() {
   return (
     <div className={styles.seasonBanner}>
       <div className={styles.seasonBannerTitle}>
-        {'🔮\xa0'}
         <Link
-          to="/blog/the-solstice-convergence"
+          to="/blog/s24-pre"
           className={styles.seasonBannerTitleText}>
-          第 23 周目: 夏至盛会
+          第 24 周目
         </Link>
         &nbsp;即将开启！
       </div>
       <div style={{display: 'flex', alignItems: 'center', flexWrap: 'wrap'}}>
         <div style={{flex: 1, whiteSpace: 'nowrap'}}>
           <div className={styles.seasonBannerDescription}>
-            {' '}
-            <b> 支持 Minecraft 1.21.6 原版 
+            <b> 现已开启 Mod 征集阶段，欢迎参与！ 
             </b>
           </div>
         </div>
@@ -76,7 +73,6 @@ export default function Home() {
       <SeasonBanner />
       <main>
         <HeroBanner />
-        <HomepageFeatures />
         <ServerAddressBanner />
       </main>
     </Layout>

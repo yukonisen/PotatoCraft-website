@@ -16,7 +16,7 @@ sidebar_position: 1
 
 ## 配置启动器
 
-**整合包可以从 QQ 群文件或[ 我们的网站 ](https://portal.curiousers.org/events/potato-s21.html)获取。** 
+**整合包也可以从 QQ 群文件获取。** 
 
 :::warning 提示
 
