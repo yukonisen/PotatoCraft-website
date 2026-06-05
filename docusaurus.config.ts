@@ -15,7 +15,7 @@ const config: Config = {
 
   // GitHub pages deployment config.
   // If you aren't using GitHub pages, you don't need these.
-  organizationName: 'DedCRS', // Usually your GitHub org/user name.
+  organizationName: 'yukonisen', // Usually your GitHub org/user name.
   projectName: 'PotatoCraft-website', // Usually your repo name.
 
   onBrokenLinks: 'log',
@@ -109,10 +109,6 @@ const config: Config = {
               href: 'https://github.com/dmzz-yyhyy',
             },
             {
-              label: 'UnnamedSer',
-              href: 'https://unnamedser.com/',
-            },
-            {
               label: 'Curiousers!',
               href: 'https://curiousers.org',
             },
@@ -123,11 +119,11 @@ const config: Config = {
           items: [
             {
               label: 'View Source (GitHub)',
-              href: 'https://github.com/DedCRS/PotatoCraft-website',
+              href: 'https://github.com/yukonisen/PotatoCraft-website',
             },
             {
-              label: 'DedCRS',
-              href: 'https://github.com/DedCRS',
+              label: '土豆网络编年史',
+              href: '/docs/chronicle',
             },
             {
               html: `
