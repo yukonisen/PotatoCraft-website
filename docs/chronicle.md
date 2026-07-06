@@ -6,6 +6,7 @@ sidebar_position: 3
 
 | 日期 [YYYY-MM-DD] | 大事件 |
 |:----------|:---|
+| 2026-07-06 | 暑假服务器* “[土豆动力学](/blog/s24)” 在 Java 版开启 |
 | 2026-05-28 | **土豆网络的实际运营者变更为 Nariko** |
 | 2025-07-08 | 暑假服务器 “[夏至盛会](/blog/the-solstice-convergence)” 在 Java 版开启 |
 | 2025-01-18 | 寒假服务器 “[游戏演进](/blog/gaming_evolution)” 在 Java 版开启 |

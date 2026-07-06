@@ -20,7 +20,7 @@ function HeroBanner() {
           />
         </Heading>
         <div className={styles.indexCtas}>
-          <Link className="button button--info" href="https://portal.curiousers.org/events/potato-s23.html">
+          <Link className="button button--info" href="https://nariko.org/events/potato-s24.html">
           模组包下载
           </Link>
         </div>
@@ -35,16 +35,16 @@ function SeasonBanner() {
     <div className={styles.seasonBanner}>
       <div className={styles.seasonBannerTitle}>
         <Link
-          to="/blog/s24-pre"
+          to="/blog/s24"
           className={styles.seasonBannerTitleText}>
           第 24 周目
         </Link>
-        &nbsp;即将开启！
+        &nbsp;现已开启！
       </div>
       <div style={{display: 'flex', alignItems: 'center', flexWrap: 'wrap'}}>
         <div style={{flex: 1, whiteSpace: 'nowrap'}}>
           <div className={styles.seasonBannerDescription}>
-            <b> 现已开启 Mod 征集阶段，欢迎参与！ 
+            <b> 机械动力：航空学
             </b>
           </div>
         </div>
@@ -59,7 +59,7 @@ function ServerAddressBanner() {
     className={clsx(styles.addressBanner, styles.addressBannerDark)}
     data-theme="dark">
     <img
-          src="https://api.mcstatus.io/v2/widget/java/upt.curiousers.org?dark=true"
+          src="https://api.mcstatus.io/v2/widget/java/potato.nariko.org?dark=true"
           style={{ height: '60%' }}
         />
     </div>

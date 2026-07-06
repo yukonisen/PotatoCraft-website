@@ -8,7 +8,7 @@ const config: Config = {
   favicon: 'img/favicon.ico',
 
   // Set the production url of your site here
-  url: 'https://upt.curiousers.org',
+  url: 'https://mc.nariko.org',
   // Set the /<baseUrl>/ pathname under which your site is served
   // For GitHub pages deployment, it is often '/<projectName>/'
   baseUrl: '/',
@@ -53,8 +53,8 @@ const config: Config = {
       respectPrefersColorScheme: true,
     },
     announcementBar: {
-      id: 'migration_nariko',
-      content: `土豆网络今后将由 Nariko 运营。<a href="/blog/migration-to-nariko">阅读此公告</a> 以了解详情。`,
+      id: 's24_announcement',
+      content: `土豆网络第 24 周目现已开启！<a href="/blog/s24">阅读此公告</a> 以了解详情。`,
       backgroundColor: '#9ecdff',
       textColor: '#222222',
       isCloseable: true,
